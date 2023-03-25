@@ -20,23 +20,30 @@ Console.WriteLine("Enter symbols or numbers");
         string[] FillArray()
         {
             string[] symbol = Console.ReadLine()!.Split(' ', ',', '.').ToArray();
-                Console.WriteLine("wwedeno <100 chisel={0}", symbol);
-            return(symbol);
+         return(symbol);
         }
 
 
         void Func3()
         {  int count=0; 
+            
         string del;
             for (int i = 0; i < array.Length; i++)
             {
                 if(array[i].Length<=3) 
-                {count += 1;
+                {
+                    count += 1;
                 Console.WriteLine("wwedeno <=3 chisel={0}", array[i]);
+                
                 }
                 else 
-                { del=array[i];
-                    array[i].Remove(del);
+                { 
+                    del=array[i];
+
+                   array[i]=array[array.Length];
+                   array[array.Length]=del; 
+                    Array.Resize(ref array, array.Length-1);
+                   
                 }
             }
             Console.WriteLine("wwedeno <=3 chisel={0}", count);
