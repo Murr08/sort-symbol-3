@@ -13,27 +13,33 @@
 Console.WriteLine("Enter symbols or numbers");
 
         Console.Clear();
-        int[] array=FillArray(); // заполняем массив 
-        Func0(); // определяем >0
+        string[] array=FillArray(); // заполняем массив 
+        Func3(); // определяем <=3 символов  в элементе  массива
         PrintArray(); //выводим массив
 
-        int[] FillArray()
+        string[] FillArray()
         {
-            int[] chisla = Console.ReadLine()!.Split(' ', ',', '.').Where(i => int.TryParse(i, out _)).Select(int.Parse).ToArray();
-            return(chisla);
+            string[] symbol = Console.ReadLine()!.Split(' ', ',', '.').ToArray();
+                Console.WriteLine("wwedeno <100 chisel={0}", symbol);
+            return(symbol);
         }
 
 
-        void Func0()
-        {  int count=0;
+        void Func3()
+        {  int count=0; 
+        string del;
             for (int i = 0; i < array.Length; i++)
             {
-                if (array[i] <100) 
+                if(array[i].Length<=3) 
                 {count += 1;
-                Console.WriteLine("wwedeno <100 chisel={0}", array[i]);
+                Console.WriteLine("wwedeno <=3 chisel={0}", array[i]);
+                }
+                else 
+                { del=array[i];
+                    array[i].Remove(del);
                 }
             }
-            Console.WriteLine("wwedeno <100 chisel={0}", count);
+            Console.WriteLine("wwedeno <=3 chisel={0}", count);
         }
 
  
