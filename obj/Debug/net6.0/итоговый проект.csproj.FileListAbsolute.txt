@@ -1,0 +1,15 @@
+C:\Users\Admin\ОБУЧЕНИЕ\1.C Sharp C#\итоговый проект\obj\Debug\net6.0\итоговый проект.csproj.AssemblyReference.cache
+C:\Users\Admin\ОБУЧЕНИЕ\1.C Sharp C#\итоговый проект\obj\Debug\net6.0\итоговый проект.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\ОБУЧЕНИЕ\1.C Sharp C#\итоговый проект\obj\Debug\net6.0\итоговый проект.AssemblyInfoInputs.cache
+C:\Users\Admin\ОБУЧЕНИЕ\1.C Sharp C#\итоговый проект\obj\Debug\net6.0\итоговый проект.AssemblyInfo.cs
+C:\Users\Admin\ОБУЧЕНИЕ\1.C Sharp C#\итоговый проект\obj\Debug\net6.0\итоговый проект.csproj.CoreCompileInputs.cache
+C:\Users\Admin\ОБУЧЕНИЕ\1.C Sharp C#\итоговый проект\bin\Debug\net6.0\итоговый проект.exe
+C:\Users\Admin\ОБУЧЕНИЕ\1.C Sharp C#\итоговый проект\bin\Debug\net6.0\итоговый проект.deps.json
+C:\Users\Admin\ОБУЧЕНИЕ\1.C Sharp C#\итоговый проект\bin\Debug\net6.0\итоговый проект.runtimeconfig.json
+C:\Users\Admin\ОБУЧЕНИЕ\1.C Sharp C#\итоговый проект\bin\Debug\net6.0\итоговый проект.dll
+C:\Users\Admin\ОБУЧЕНИЕ\1.C Sharp C#\итоговый проект\bin\Debug\net6.0\итоговый проект.pdb
+C:\Users\Admin\ОБУЧЕНИЕ\1.C Sharp C#\итоговый проект\obj\Debug\net6.0\итоговый проект.dll
+C:\Users\Admin\ОБУЧЕНИЕ\1.C Sharp C#\итоговый проект\obj\Debug\net6.0\refint\итоговый проект.dll
+C:\Users\Admin\ОБУЧЕНИЕ\1.C Sharp C#\итоговый проект\obj\Debug\net6.0\итоговый проект.pdb
+C:\Users\Admin\ОБУЧЕНИЕ\1.C Sharp C#\итоговый проект\obj\Debug\net6.0\итоговый проект.genruntimeconfig.cache
+C:\Users\Admin\ОБУЧЕНИЕ\1.C Sharp C#\итоговый проект\obj\Debug\net6.0\ref\итоговый проект.dll
