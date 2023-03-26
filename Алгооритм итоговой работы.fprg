@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Admin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-03-26 12:11:01 "/>
+        <attribute name="created" value="QWRtaW47TVVSUllDSDsyMDIzLTAzLTI2OyIxMTo1Njo1MCAiOzIyMzQ="/>
+        <attribute name="edited" value="QWRtaW47TVVSUllDSDsyMDIzLTAzLTI2OyIxMjoxMTowMSAiOzI7MjMzMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="&#1086;&#1095;&#1080;&#1097;&#1077;&#1085;&#1080;&#1077; &#1082;&#1086;&#1085;&#1089;&#1086;&#1083;&#1080;"/>
+            <input variable="string symbol array"/>
+            <while expression="int i = 0; i &lt; array.Length; i++">
+                <if expression="array&lt;=3">
+                    <then>
+                        <assign variable="count+" expression="1"/>
+                        <assign variable="symb3" expression="&#1091;&#1074;&#1077;&#1083;&#1080;&#1095;&#1077;&#1085;&#1080;&#1077; &#1085;&#1072; 1 &#1084;&#1072;&#1089;&#1089;&#1080;&#1074;&#1072;"/>
+                        <assign variable="symb3[count]" expression="arrai[i]"/>
+                    </then>
+                    <else/>
+                </if>
+            </while>
+            <for variable="j" start="0" end="&#1076;&#1083;&#1080;&#1085;&#1085;&#1072; &#1084;&#1072;&#1089;&#1089;&#1080;&#1074;&#1072; symb3" direction="inc" step="1">
+                <output expression="symb3[j]" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
