@@ -1,61 +1,51 @@
-﻿/*итоговый проект
- 1репоз на гите
- 2 блок схема
- 3 описание текстом решения
- 4 прогу написать
- 5 этапы  2,3,4 в разных коммитах
-
- задача : массив создать и создать фильтр на <=3 символов, 
- из полученого  создать массив строк
-
-*/
-
-Console.WriteLine("Enter symbols or numbers");
-
+﻿
         Console.Clear();
-        string[] array=FillArray(); // заполняем массив 
-        Func3(); // определяем <=3 символов  в элементе  массива
-        PrintArray(); //выводим массив
+        string [] array=FillArray(); // заполняем массив 
+        Func3(); // определяем символы <=3
+//        PrintArray(); //выводим массив
 
         string[] FillArray()
         {
-            string[] symbol = Console.ReadLine()!.Split(' ', ',', '.').ToArray();
-         return(symbol);
+            string[] symbols = Console.ReadLine()!.Split(' ', ',', '.');
+            return(symbols);
         }
 
 
+        //string[] 
         void Func3()
-        {  int count=0; 
-            
-        string del;
+        {  string[] symb3={};
+            int count=0;
+       // if(array[array.Length].Length >3) Array.Resize(ref array, array.Length);
+
             for (int i = 0; i < array.Length; i++)
             {
-                if(array[i].Length<=3) 
-                {
-                    count += 1;
-                Console.WriteLine("wwedeno <=3 chisel={0}", array[i]);
-                
-                }
-                else 
-                { 
-                    del=array[i];
+                if (array[i].Length <=3) {
+                     count += 1;
+                  Console.WriteLine("count ={0}", count);
+                    Array.Resize(ref  symb3, count);
 
-                   array[i]=array[array.Length];
-                   array[array.Length]=del; 
-                    Array.Resize(ref array, array.Length-1);
+
+                    symb3[0]=array[i];
                    
                 }
             }
-            Console.WriteLine("wwedeno <=3 chisel={0}", count);
+            Console.WriteLine("wwedeno <=3 symbols={0}   length={1}", count, symb3.Length);
+
+ for (int i = 0; i < symb3.Length; i++)
+            {
+                Console.WriteLine(symb3[i]);
+            }
+
+        //return (symb3);
         }
 
  
 
-        void PrintArray()
+/*        void PrintArray()
         {
-            Console.WriteLine("Array you enter:");
-            for (int i = 0; i < array.Length; i++)
+            for (int i = 0; i < symb3.Length; i++)
             {
-                Console.WriteLine(array[i]);
+                Console.WriteLine(symb3[i]);
             }
         }
+*/
